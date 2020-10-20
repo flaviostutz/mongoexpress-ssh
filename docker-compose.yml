@@ -13,7 +13,7 @@ services:
       - SSH_ROOT_PASSWORD=admin123
     ports: 
       - 8081:8081
-      - "2222:22"
+      - "2222:2222"
 
   mongo:
     image: mongo:4.4.1
